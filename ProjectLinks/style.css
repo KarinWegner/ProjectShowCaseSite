@@ -1,0 +1,25 @@
+:root{
+    --color-background-light: #E1E7E0;
+    --color-background-medium: #6AA4B0;
+    --color-background-dark: #2F6D80;
+    
+    --color-contrast-blue: #2B4560;
+
+    font-family: monospace;
+}
+html,body{
+    margin: 0;
+    padding-bottom:3rem;
+    padding-top: 2rem;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    background-color: var(--color-background-light);
+}
+.bg-light{
+    background-color: var(--color-background-light) !important;
+}
+.bg-medium{
+    background-color: var(--color-background-medium) !important;
+}
+.bg-dark{
+    background-color: var(--color-background-dark) !important;
+}
